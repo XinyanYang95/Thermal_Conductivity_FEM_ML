@@ -18,3 +18,5 @@ Script descriptions:
   5 - This Python performs PCA and trains a NN for the first model (i.e., element centroid heat flux model which estimates heat flux of each element from material thermal conductivity ratio).
   6 - This Jupyter notebook trains a CNN for the second model (i.e., effective thermal conductivity model which predicts effective thermal conductivity from input heat flux image by FEM)
   7 - This Python script computes the average heat flux analytically.
+
+Also shared are FEM job files (.inp) and job submission bash sripts (.sh).
