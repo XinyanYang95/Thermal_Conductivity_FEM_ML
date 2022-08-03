@@ -6,6 +6,8 @@ FEM and Data-driven Analysis in Investigating Thermal Conductivity of Heterogene
 Project type: 
 Course project for CIV_ENV 426-2 Advanced FEA and Data-driven Materials Performance Analysis at Northwestern University 
 
+Date: 05/2020
+
 Project description: 
 In this project, a hybrid method combining finite element analysis and data-driven analysis is proposed to investigate the thermal conductivity of a simple checkerboard heterogeneous material. Finite element analysis (FEA) is first conducted with Abaqus to study the material heat flux distribution and effective thermal conductivity under different mesh refinements and material thermal conductivity ratios. With rich data produced by FEA, we built a heat flux model which can predict element-wise heat flux under a given material thermal conductivity ratio using principal component analysis (PCA) based data compression and feed-forward neural network (FFNN) regression in machine learning. Moreover, an effective thermal conductivity model with a trained convolutional neural network (CNN) is built to directly output the effective thermal conductivity using the Abaqus heat flux contour as the input. Both models display relatively high accuracy.
 
